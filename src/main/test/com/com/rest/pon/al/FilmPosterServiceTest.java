@@ -17,14 +17,6 @@ public class FilmPosterServiceTest {
 
     private static List<JsonWebKey> jwkList = null;
 
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @After
-    public void tearDown() throws Exception {
-    }
-
     @BeforeClass
     public static void setSetting(){
         jwkList = new LinkedList<>();

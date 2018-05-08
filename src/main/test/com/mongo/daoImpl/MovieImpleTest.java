@@ -38,22 +38,11 @@ public class MovieImpleTest {
     @BeforeClass
     public static void testSetSetting(){
         client = new MongoClient("localhost", 27017);
-//        database = client.getDatabase("movies").withCodecRegistry(buildCodecRegistry());
-//        mongoCollection = database.getCollection("movies");
     }
 
     @AfterClass
     public static void testDisableSetting(){
         client.close();
-    }
-
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @After
-    public void tearDown() throws Exception {
-//        client.close();
     }
 
     @Test
@@ -64,21 +53,10 @@ public class MovieImpleTest {
         Movie movie;
         MongoCursor<Document> cur = mongoCollection.find().iterator();
         while (cur.hasNext()){
-
-//            movies.add((cur.)cur.next());
-//            Document document = cur.next();
-//            System.out.println(getConvertMovie(cur.next()).toString());
-//
             movie = getConvertMovie(cur.next());
-
-
             movies.add(movie);
             System.out.println(movie.toString());
-//            System.out.println(cur.next().toJson());
-//            System.out.println(document.values());
-//            System.out.println(movies.size());
         }
-
         System.out.println("Test - testGetAll STArt ");
     }
 
