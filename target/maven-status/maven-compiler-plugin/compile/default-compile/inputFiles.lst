@@ -1,0 +1,14 @@
+/home/alex/www/FilmPoster/src/main/java/com/al/pon/util/UtilCreateAndDeleteCollectionInDB.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/util/MongoUtil.java
+/home/alex/www/FilmPoster/src/main/java/com/al/pon/util/GenKeyUtil.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/daoImpl/MovieImple.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/entity/model/Movie.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/entity/model/User.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/dao/AbstractDao.java
+/home/alex/www/FilmPoster/src/main/java/com/listener/ListenerS.java
+/home/alex/www/FilmPoster/src/main/java/com/al/pon/util/StatusMessage.java
+/home/alex/www/FilmPoster/src/main/java/com/com/rest/pon/al/Security.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/dao/InterfaceDaoUser.java
+/home/alex/www/FilmPoster/src/main/java/com/al/pon/util/Validate.java
+/home/alex/www/FilmPoster/src/main/java/com/mongo/daoImpl/UserDaoImpl.java
+/home/alex/www/FilmPoster/src/main/java/com/com/rest/pon/al/FilmPosterService.java
